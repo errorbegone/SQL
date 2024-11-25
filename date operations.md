@@ -11,3 +11,6 @@
   AND 
   DATEDIFF('2019-07-27', date) >= 0 
 
+### EXTRACT
+   EXTRACT(YEAR_MONTH FROM mr.created_at) = 202002 
+   checks if item was created at February, 2020.
